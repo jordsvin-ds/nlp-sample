@@ -1,4 +1,4 @@
-# nlp-sample
+# Code sample: News Classificator
  
  
 This repo contains a sample of a representative NLP-related Python code. 
