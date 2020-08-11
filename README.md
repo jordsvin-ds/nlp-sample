@@ -5,7 +5,7 @@ This repo contains a sample of a representative NLP-related Python code.
 
 This program is a Classificator of some already preparsed (by-word normalized, but not fully lemmatized) text files from miscellaneous news publications from open sources (the sample source files are in Russian, 200 items in each category). 
 
-The zip-folder with .txt files of respective topic have to be unzipped and located in the project directory (same as the `demo_task.py` file) 
+The zip-folder with `.txt` files (`News_Textfiles.zip`)  has to be unzipped and located in the project directory (same as the `demo_task.py` file) 
 
 It subdivides all the news into 4 categories: `Culture`, `Economics`, `Sport` and `Miscellaneous` (the last is also based on the content of the training sample and not on the fact that a program is uncertain which group the selected text belongs to). The training sample is selected randomly.
 
