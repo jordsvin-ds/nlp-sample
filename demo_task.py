@@ -10,7 +10,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from time import  sleep
 
-# a function importing tematic texts from respective folders located within the main folder.
 
 # a separate class for input
 class Modelling_Procedure:
@@ -55,6 +54,8 @@ def output(scorings):
     print('\n')
 
 
+    
+# a function importing tematic texts from respective folders located within the main folder.
 
 def make_X_and_y_matrix(folders):
     paths_to_class = {"culture\\ind": 'Culture',
